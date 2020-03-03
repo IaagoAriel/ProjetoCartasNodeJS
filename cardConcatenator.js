@@ -1,24 +1,24 @@
 module.exports = class cardConcatenator{
 
-    constructor({concatenatedString, sum}){
-        this.concatenatedString = concatenatedString;
-        this.sum = sum;
+    constructor(concatenatedString, sum){
+        this._concatenatedString = concatenatedString;
+        this._sum = sum;
     }
 
     get concatenatedString(){
-        return this.concatenatedString;
+        return this._concatenatedString;
     }
 
     set concatenatedString(concatenatedString){
-        this.concatenatedString = concatenatedString;
+        this._concatenatedString = concatenatedString;
     }
 
     get sum(){
-        return this.sum;
+        return this._sum;
     }
 
     set sum(sum){
-        this.sum = sum;
+        this._sum = sum;
     }
 
 }

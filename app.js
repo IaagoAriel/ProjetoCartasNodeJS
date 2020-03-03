@@ -17,7 +17,7 @@ app.post('/', (req, res) => {
     console.log("Started!");
     // req.body is the attribute that contains the information of the req object
     res.send(new controller().returnFinalString(req.body));
-    console.log("app 7");
+    console.log("Ended!");
 });
 
 app.get('/', (req, res) => {
